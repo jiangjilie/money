@@ -1,0 +1,41 @@
+﻿导出全部数据库mysqldump -uroot -p --all-databases > d:\sqlfile.sql
+此操作会把数据库服务器root用户下的所有数据库都导出d盘下。如果回车后提示Enter Password：请输入你的mysql root密码。
+
+注意：all前面是两个减号（-），，databases前面是一个减号   --all-databases
+像上图那样操作，就会在我的d盘生成一个sqlfile.sql文件，导出过程中没有光标闪烁，当你发现又可以键入命令（有光标闪烁了），数据库就导出完成了。
+
+导入：
+1.登录mysal：
+         mysql -uroot  -p
+根据提示输入密码
+然后：
+         source d:\sqlfile.sql;
+记得这句后面有分号哈。
+linux下路径分隔符是"/"，windows下是"\"和"/"都行
+
+登录本地Mysql服务器直接用mysql -uroot -p也可以，这里我写成mysql -hlocalhost -uroot -p 其实是指定了服务器为本地，访问远程服务器需要在-h参数后面指定主机地址
+
+退出mysql：
+
+quit然后回车，看到Bye（再见的意思）就成功退出啦。
+
+另外，source命令还可以一次导入多个sql文件，下面来介绍下方法：
+         1.新建一个all.sql，输入下面的内容并保存：
+         sourced:\sql1.sql
+         sourced:\sql2.sql
+         2.登录mysql后，输入指令source all.sql;
+
+以上是使用mysql的命令行模式进行操作的，不是phpmyadmin等图形界面工具的操作方法。
+
+
+
+
+打开 cmd，不需要进入 mysql 的命令界面
+导出
+
+mysqldump -u root -p test >  d:\test.sql
+root 数据库用户名，test 数据库名，回车后接着会让你输入数据库密码，test.sql 就会在当前文件目录
+
+导入
+
+mysql -u root -p test <  d:\test.sql

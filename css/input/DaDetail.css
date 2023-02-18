@@ -1,0 +1,22 @@
+﻿table {
+    width: 100%;
+}
+
+    table tr td {
+        border: 1.5px solid;
+        height: 35px;
+        text-align: center;
+    }
+
+.datab-1 {
+    width: 10%;
+}
+
+.datab-2 {
+    width: 23%;
+}
+
+h3 {
+    width: 100%;
+    text-align: center;
+}

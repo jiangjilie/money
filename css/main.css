@@ -1,0 +1,34 @@
+﻿body {
+}
+ul li{list-style:none;}
+.lable-title{
+    /*float:right;*/
+    padding-top:0px;
+    text-align: left;
+    /*line-height: 30px;*/
+    /*min-width:10%;*/
+}
+.sm-right{text-align:right;}
+.lable-content{
+    /*float:right;*/
+    padding-top:7px;
+    text-align: left;
+    /*line-height: 30px;*/
+    /*min-width:10%;*/
+}
+.parsley-errors-list > li {
+    font-size: 12px;
+    list-style: none;
+    color: #f05050;
+    width:150px;
+}
+.table th{text-align:center;}
+.layer-footer{float:right;}
+.main-footer{text-align:center;}
+.sec-lable{min-width:140px; text-align:right;}
+.eva-lable{min-width:100px; text-align:right;}
+.input-form{width:60%;}
+.table-msg{color:#3c8dbc; cursor:pointer;}
+.primary{display:block; padding-top:8px;}
+.fieldset-header{border-top:1px solid #0094ff;border-left:1px solid #0094ff;border-right:1px solid #0094ff;}
+.fieldset-bottom{border-top:1px solid #0094ff;}

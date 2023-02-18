@@ -1,0 +1,87 @@
+body{
+	padding:0;  /*去除内边距*/
+	border:0;   /*去除边框*/
+	margin:0;   /*去除外边距*/
+	}
+.body{
+	width:1366px;
+	height:600px;
+	margin-left:150px;
+	
+}
+.form{
+	width:1150px;
+	height:200px;
+	margin-top:10px;
+	position:relative;
+}
+.inputname{
+	width:200px;
+	margin-left:0px;
+	margin-top:0px;
+	position:relative;
+	/* background-color:yellow; */
+}
+
+.input{
+	width:300px;
+	margin-left:220px;
+	margin-top:-41px;
+	padding:10px 10px;
+	position:relative;
+		/* background-color:red; */
+}
+
+.form-control{
+	width:100%;
+	padding:4px 6px;
+	font-size:16px;
+	color:#717171;
+    
+}
+.input-control{
+	width:100%;
+	padding:4px 5px 6px;
+}
+.submit{
+	margin:right;
+	width:50px;
+	background-color: #428BCA !important;
+	    border-color: #428BCA;
+}
+fieldset {
+    width: 100px;
+	height:50px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.fieldset2{
+	margin-left:600px;
+	margin-top:-100px;
+}
+.div-table{
+	width:100%;
+	height:90%;	
+}
+.th{
+	text-align:center;
+}
+.th-tr{
+	background-color: #438eb9;
+	color: #FFF;
+	font-size: 14px;
+	line-height: 38px;
+	padding: 12px;
+	margin-bottom: 2px;
+	border:1px solid #ddd;
+}
+.td{
+	border:1px solid #888;
+	border-bottom:1px solid #888;
+	padding:5px 10px;
+	text-decoration:none;
+}
+.href{
+		text-decoration:none;
+	}

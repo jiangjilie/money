@@ -1,0 +1,137 @@
+body{
+		/* padding:0;  /*去除内边距*/ 
+		/* border:0;   /*去除边框*/ 
+		/* margin:0;   /*去除外边距*/ 
+	}
+	.image-list {
+	    width: 18%;
+	    height: 100%;
+	    border: 1px solid gray;
+	    float: left;
+		position:relative;
+		font-size:17px;
+		z-index:9999;    /*置顶div*/
+		background-color:white;
+	}
+	.image-table-title {
+	    width: 100%;
+	    height: 25px;
+	    background-color:  #428BCA;
+	    color: white;
+	    text-align: center;
+		font-size:18px;
+	}
+	/* .image-table-title{
+		width: 100%;
+		height: 25px;
+		background-color:  #428BCA;
+		font-size:20px;
+		color: black;
+		text-align: center;
+		
+		
+	} */
+	.imageShow {
+	    height: 100%;
+	    width: 50%;
+	    float: left;
+	    margin-right: 20px;
+		position:relative;
+	}
+	.image{
+		width:1200px;
+		height: 800px;
+		margin-left:310px;
+		position: absolute;
+		/* background-color: #000000; */
+	}
+	.image-table{
+		width:23%;
+		height:100%;
+		/* margin-top:590px; */
+		border-top:2px solid black;
+		position:relative;
+		background-color:white;
+		/* margin-left:-13px; */
+		float:right;
+		/* padding:10px 10px; */
+	}
+	.pagechange{
+		width: 100%;
+		height:30px;
+		margin-left: 0px;
+		margin-top: 0px;
+		position: relative;		
+	}
+	.prepage{
+		height:70%;
+		width:40%;
+		padding:3px;
+		border: 1px solid transparent;
+		border-radius: 4px;
+		float:left;
+		background-color: #428BCA;
+		text-align:center;
+	}
+	.nextpage{
+		height:70%;
+		width:40%;
+		padding:3px;
+		border: 1px solid transparent;
+		border-radius: 4px;
+		float:right;
+		background-color: #428BCA;
+		text-align:center;
+	}
+	.listHref{
+		color:black;
+		text-decoration:none;
+	}
+	.imageHref{
+		display: inline-block;
+		margin-bottom: 0;
+		font-size: 15px;
+		font-weight: normal;
+		line-height: 1.6;
+		touch-action: manipulation;
+		cursor: pointer;
+		white-space: nowrap;
+		vertical-align: middle;
+		text-decoration:none;
+		text-align:center;
+		border: 1px solid transparent;
+		border-radius: 4px;
+		color: #fff;
+		background-color: #337ab7;
+		border-color: #2e6da4;
+	}
+	.href{
+		text-decoration:none;
+	}
+	/* .imageTable{
+		width:100%;
+		height:80%
+	} */
+	.image-table-tr{
+		background-color: #a6cae1;
+		/* color: #FFF; */
+		font-size: 14px;
+		line-height: 38px;
+		padding: 12px;
+		margin-bottom: 2px;
+		border:1px solid #ddd;
+	}
+	.image-table-th{		
+		text-align:center;
+	}
+	.image-table-td{
+		border-right:1px solid #888;
+		border-bottom:1px solid #888;
+		padding:5px 10px;
+		text-decoration:none;
+		border: 1px solid #ddd;
+	}
+	.input{
+		width:100%;
+		height:100%;
+	}	
